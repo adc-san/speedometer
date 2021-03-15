@@ -1,8 +1,9 @@
-enum pins { s1pin = 8,
-            s2pin = 7,
-            f1pin = 5,
-            f2pin = 6,
-            ledpin = 10
+enum pins {
+	s1pin = 8,	//sensor start rider1
+	s2pin = 7,	//sensor start rider2
+	f1pin = 5,	//sensor finish rider1
+	f2pin = 6,	//sensor finish rider2
+	ledpin = 10	//Output 38kHz for infrared led
           };
 bool start = 0, test = 0, prt = 0, printed = 0,
      s1, s2, f1, f2, //sensors states
