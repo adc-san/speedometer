@@ -6,9 +6,10 @@ enum pins {
 	f2pin = 6,	//sensor finish rider 2
 	ledpin = 10	//Output 38kHz for infrared led
           };
-bool start = 0, test = 0, prt = 0, printed = 0,
+          
+bool start = 0, test = 0, prt = 0, printed = 0, //flags
      s1, s2, f1, f2, //sensors states
-     g1, g2,         // flags of start measuring (Go!) test for mistake
+     g1, g2,         // flags of start measuring (Go!) and test for mistake
      go1, go2,       // flags of measuring
      fi1, fi2,       // flags of finish, test for mistake
      fin1, fin2     // finish flags
