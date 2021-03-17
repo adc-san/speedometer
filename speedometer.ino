@@ -1,3 +1,4 @@
+//Number Pins of Arduino
 enum pins {
 	s1pin = 8,	//sensor start rider 1
 	s2pin = 7,	//sensor start rider 2
