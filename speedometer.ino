@@ -42,7 +42,7 @@ void loop() {
   f2 = digitalRead(f2pin);
 
 
-  //-----------LINE1-----------
+  //-----------crossing finish LINE1-----------
   if (!fin1) {
     if (!go1) {
       //test for start sensor on
@@ -76,7 +76,7 @@ void loop() {
     }
   }
 
-  //-----------LINE2-----------
+  //-----------crossing finish  LINE2-----------
   if (!fin2) {
     if (!go2) {
       //test for start sensor on
