@@ -1,2 +1,3 @@
-﻿It is a Project for Arduino. You need infrared sensors to work. Measuring the speed of two riders on the control section.
-It was made for kids races in Begovelik club.
+﻿It was made for fun kids races in Begovelik club.
+Two riders ride on independent parrallel roads, and the system measures the speed of each rider on the control section..
+It is a Project for Arduino Uno. You need 4 infrared sensors(IR led + IR receiver) to work. 
